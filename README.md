@@ -27,7 +27,7 @@ charm build
 ## Deploy charm
 
 ```bash
-juju deploy ./charm-magnum magnum --config openstack-origin="cloud:xenial-queens"
+juju deploy ./charm-magnum magnum --config openstack-origin="cloud:bionic-train"
 
 juju add-relation magnum mysql
 juju add-relation magnum rabbitmq-server
